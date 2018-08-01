@@ -2,7 +2,6 @@ var Discord = require("discord.js");
 var client = new Discord.Client();
 var config = require("./config.json");
 var prefix = "/ss";
-var request = require('request');
 var cheerio = require('cheerio');
 client.on("ready", () => {
   console.log("I am ready!");
